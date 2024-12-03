@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       colors: {
         greenBase: "#28db70"
+      },
+      fontFamily: {
+        righteous: ['Righteous', 'cursive']
       }
     },
   },
