@@ -4,10 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        greenBase: "#28db70"
+        greenBase: "#28db70",
+        greenBg: '#101e12'
       },
       fontFamily: {
-        righteous: ['Righteous', 'cursive']
+        righteous: ['Righteous', 'cursive'],
+        Gummy: "Sour Gummy"
       }
     },
   },
