@@ -16,13 +16,14 @@
             [cdkMenuTriggerFor]="menu"
             class="bg-transparent cursor-pointer border-none text-gray-800 text-lg p-2 items-center hover:bg-gray-200 focus:outline-none block xl:hidden"
         >
-        <i class="fa-solid fa-bars text-white"></i>
+        <i class="fas fa-bars"></i>
         </button>
 
         <!-- Menu desplegable, se muestra solo en pantallas pequeñas -->
             <ng-template #menu>
                 <div class="bg-white shadow-lg rounded-lg min-w-[180px] max-w-[280px] py-1 absolute top-12 right-0 z-50" cdkMenu>
                     <button class="text-gray-800 p-2 w-full text-left hover:bg-gray-300 focus:outline-none" cdkMenuItem>Inicio</button>
+                    <button class="text-gray-800 p-2 w-full text-left hover:bg-gray-300 focus:outline-none" cdkMenuItem>Habilidades</button>
                     <button class="text-gray-800 p-2 w-full text-left hover:bg-gray-300 focus:outline-none" cdkMenuItem>Conoceme</button>
                     <button class="text-gray-800 p-2 w-full text-left hover:bg-gray-300 focus:outline-none" cdkMenuItem>Contacta Conmigo</button>
                 </div>

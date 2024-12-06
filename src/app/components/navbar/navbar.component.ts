@@ -8,5 +8,5 @@ import {CdkMenu, CdkMenuItem, CdkMenuTrigger} from '@angular/cdk/menu';
   templateUrl: './navbar.component.html'
 })
 export class NavbarComponent {
-
+  
 }
